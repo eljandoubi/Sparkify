@@ -67,6 +67,7 @@ The files structure is arranged as below:
 ```pip install -r requirements.txt```
 
 5. You can run the following commands in the project's directory to set up the database, train model and save the model.
+You need first to set your AWS key id and secret key.
     
 ```ipython Sparkify.ipynb```
 
