@@ -1,4 +1,5 @@
 nbformat
 ipython
 gradio
+boto3
 pyspark

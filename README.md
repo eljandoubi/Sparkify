@@ -46,6 +46,7 @@ The files structure is arranged as below:
 * Big data and Machine Learning Libraries: PySpark
 * Web App: Gradio
 * Jupyter: ipython
+* Boto3: the AWS SDK for Python
 
 <a name="installation"></a>
 ### Installation
@@ -65,14 +66,10 @@ The files structure is arranged as below:
 
 ```pip install -r requirements.txt```
 
-5. (Optional) You can run the following commands in the project's directory to set up the database, train model and save the model.
+5. You can run the following commands in the project's directory to set up the database, train model and save the model.
     
 ```ipython Sparkify.ipynb```
 
-6. (Optional) If you have not executed the previous line, please unzip the `bestModel.zip` file.
-
-```unzip bestModel.zip```
-
-7. To run your web app, execute the following command.
+6. To run your web app, execute the following command.
 
 ```python web_app.py```
