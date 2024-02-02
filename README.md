@@ -12,6 +12,7 @@
 <a name="descripton"></a>
 ## Description
 
+Use case:
 Sparkify, an innovative startup, delivers music streaming services to users across the United States. Our users engage with the service daily, either through the free tier with intermittent advertisements or the premium subscription model, which offers ad-free music at a fixed monthly cost. Users have the flexibility to upgrade, downgrade, or cancel their service as desired, making it crucial for us to ensure their satisfaction. Each interaction a user has with our service, such as playing songs, logging out, liking tracks with a thumbs-up, listening to ads, or changing their subscription level, generates valuable data. This data holds key insights for maintaining user happiness and driving Sparkify's success. As members of the data team, our mission is to accurately predict which users are likely to churn, either by downgrading from the premium tier to the free tier or canceling their subscription altogether. By identifying these users in advance, Sparkify can proactively offer them discounts and incentives, potentially saving millions in revenue for the business.
 
 As the volume of data in the log file has exceeded the memory capacity of standard desktop computers, Sparkify has adopted the distributed file system Apache Spark™. To analyze this large dataset, Udacity™ provides the complete 12GB dataset on AWS™ S3, and you can leverage AWS or IBM™ Cloud to run a Spark cluster in the cloud.
